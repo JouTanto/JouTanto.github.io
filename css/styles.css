@@ -84,8 +84,8 @@ nav {
 /**CONTENEDOR FOTO, TITULO**/
 .contenedor_foto{
     margin: auto;
-    margin-top: 15px;
-	margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     height: auto;
     width: 70%;
     box-shadow: inset 0px 0px 100px rgba(0, 0, 0);
