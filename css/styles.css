@@ -68,7 +68,7 @@ nav {
 
 .toggle {
     color: #d1faf4;
-    margin-right: 20px;
+    margin-right: 30px;
     font-size: 30px;
     transform: rotate(90deg);
     cursor: pointer;
@@ -84,7 +84,7 @@ nav {
 /**CONTENEDOR FOTO, TITULO**/
 .contenedor_foto{
     margin: auto;
-    margin-top: 25px;
+    margin-top: 15px;
 	margin-bottom: 25px;
     height: auto;
     width: 70%;
