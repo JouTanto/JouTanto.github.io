@@ -374,6 +374,64 @@ span{
 }
 /**FIN FORMULARIO DE CONTACTO**/
 
+/**GRAFICOS**/
+.habilidades{
+    width: 100%;
+    max-width: 650px;
+    padding: auto 30px;
+}
+
+.habilidades i{
+    font-size: 40px;
+    color: rgb(53, 48, 48);
+    padding-top: 15px;
+}
+
+.habil_barra{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+    margin: 1px 10px 10px 65px;
+}
+.habil_per{
+    height: 14px;
+    background:rgb(0, 71, 112);
+    border-radius: 3px;
+    position: relative;
+    animation: fillbars 3.5s 1;
+    box-shadow: 2px 0px 2px #2479d4;
+}
+.habil_per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.habil_per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+@keyframes fillbars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+/**FIN GRAFICOS**/
 
 
 
