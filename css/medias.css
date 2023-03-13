@@ -28,7 +28,7 @@
     }
 
     .contenedor_foto{
-        height: 90vh;
+        height: 85vh;
         width: 95%;
         background: linear-gradient(rgba(40, 45, 51, 0.5), rgba(27, 29, 32, 0.5));
         background-image: url(../img/IMG_20230130_091739769.jpg);
@@ -57,11 +57,6 @@
         font-size: 28px;
     }
 
-    .contenedor_contenido{
-        height: 80%;
-        width: 90%;
-    }
-
     .contenedor_datos{
         display: flex;
         flex-direction: column;
@@ -82,4 +77,10 @@
         font-family: 'Lora', serif;
     }
     
+}
+
+@media only screen and (max-width:1030px){
+    .contenedor_contenido{
+        width:100%;
+    }
 }
