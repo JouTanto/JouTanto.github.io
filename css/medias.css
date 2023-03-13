@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 900px){
     .toggle {
         display: inline-block;
@@ -29,7 +28,9 @@
 
     .contenedor_foto{
         height: 85vh;
-        width: 95%;
+        width: 97%;
+        margin-top: 5px;
+        margin-bottom: 5px;
         background: linear-gradient(rgba(40, 45, 51, 0.5), rgba(27, 29, 32, 0.5));
         background-image: url(../img/IMG_20230130_091739769.jpg);
         background-size:cover;
@@ -70,8 +71,6 @@
     .contenedor_titulo{
         margin: 1px 1px 1px 1px;
         padding: 10px;
-                        
-         
         text-align: center;
         font-size: 35px;
         font-family: 'Lora', serif;
@@ -82,5 +81,16 @@
 @media only screen and (max-width:1030px){
     .contenedor_contenido{
         width:100%;
+    }
+}
+
+@media (orientation:landscape){
+    .contenedor_foto{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contenedor_titulo_ppl{
+        font-size: 35px;
+        padding: 100px 150px 5px 5px;
     }
 }
