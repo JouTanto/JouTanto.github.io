@@ -1,4 +1,13 @@
 
+@media screen and (max-widht:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .clase{
+        top: 20px;
+        right: 20px;
+    }
+}
 
 @media screen and (max-width: 900px){
     .toggle {
@@ -30,12 +39,8 @@
     .contenedor_foto{
         height: 85vh;
         width: 97%;
-        margin-top: 5px;
-        margin-bottom: 5px;
         background: linear-gradient(rgba(40, 45, 51, 0.5), rgba(27, 29, 32, 0.5));
         background-image: url(../img/IMG_20230130_091739769.jpg);
-        background-size:cover;
-        background-repeat: no-repeat;
         background-position:top right;
     }
     
@@ -44,7 +49,7 @@
         margin: 5px;
         padding: 30px 5px 5px 5px;
         text-align: center;
-        font-size: 35px;
+        
     }
     
     .contenedor_social{
@@ -60,21 +65,14 @@
     }
 
     .contenedor_datos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         text-align: center;
         width: 90%;
         font-size: 20px;
-        box-shadow: -5px 5px 10px rgb(0, 0, 0);
     }
     
     .contenedor_titulo{
-        margin: 1px 1px 1px 1px;
-        padding: 10px;
         text-align: center;
         font-size: 35px;
-        font-family: 'Lora', serif;
     }
     
 }
@@ -85,13 +83,25 @@
     }
 }
 
+@media (max-width: 1570px){
+    section{
+        transition: .2s;
+    }
+    .contacto-forma h1{
+        font-size: 40px;
+    }
+    .contacto-forma p{
+        margin-bottom: 1rem;
+    }
+}
+
 @media (orientation:landscape){
     .contenedor_foto{
         margin-top: 5px;
         margin-bottom: 5px;
     }
     .contenedor_titulo_ppl{
-        font-size: 35px;
+        font-size: 45px;
         padding: 100px 150px 5px 5px;
     }
 }
