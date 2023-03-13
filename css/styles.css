@@ -298,16 +298,6 @@ nav {
     line-height: 40px;
     border-radius: 2px ;
 }
-
-@media screen and (max-widht:400px){
-    .galeria{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    .clase{
-        top: 20px;
-        right: 20px;
-    }
-}
 /**FIN CONTENEDOR DOCUMENTOS**/
 
 /**FORMULARIO DE CONTACTO**/
@@ -382,20 +372,6 @@ span{
 .contacto_forma form .btn:hover{
     background:  #1b4749;
 }
-
-@media (max-width: 1570px){
-    section{
-        transition: .2s;
-    }
-    .contacto-forma h1{
-        font-size: 40px;
-    }
-    .contacto-forma p{
-        margin-bottom: 1rem;
-    }
-}
-
-
 /**FIN FORMULARIO DE CONTACTO**/
 
 
