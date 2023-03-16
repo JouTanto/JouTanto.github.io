@@ -27,7 +27,7 @@ nav {
     justify-content: space-between;
     max-width: 1500px;
     line-height: 80px;
-    z-index: 99;
+    z-index: 101;
 }
 .container-logo {
     margin-left: 20px;
