@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | Proyecto CV</title>
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
+    
+    <!--ESTILOS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!--GOOGLEFONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--NAV BAR-->
+    <header class="header">
+        <div class="contenedor">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <div class="logo">
+                <h1>CV JOEL</h1>
+            </div>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Mi</a>
+            </nav>
+        </div>
+    </header>
+    <!--FIN NAV BAR-->
+
+   <!--MENU DESPLEGABLE-->
+   <input type="checkbox" id="btn-menu">
+   <div class="contenedor-menu">
+       <div class="cont-menu">
+           <nav>
+               <a href="portafolio.html">Portafolios</a>
+               <a href="servicios.html">Servicios</a>
+               <a href="registro.html">Registrate</a>
+               <a href="contacto.html">Contacto</a>
+           </nav>
+          <label for="btn-menu" class="icon-equis"><i class="fa-solid fa-x"></i></label>
+       </div>
+   </div>
+   <!--FIN MENU DESPLEGABLE-->
+
+    <!--CONTENIDO-->
+    <div class="contenedor_contenido">
+        <div class="titulo_registro"><h5>REGISTRO</h5></div>
+            <form action="#">
+                <div class="detalle_usuario">
+                    <div class="cuadro_entrada">
+                        <span class="detalles">Nombre Completo</span>
+                        <input type="text" placeholder="Ingresa tu nombre" required>
+                    </div>
+
+                    <div class="cuadro_entrada">
+                        <span class="detalles">Nombre de Usuario</span>
+                        <input type="text" placeholder="Ingresa tu nombre de usuario" required>
+                    </div>
+
+                    <div class="cuadro_entrada">
+                        <span class="detalles">E-mail</span>
+                        <input type="text" placeholder="Ingresa tu e-mail" required>
+                    </div>
+
+                    <div class="cuadro_entrada">
+                        <span class="detalles">Numero Telefonico</span>
+                        <input type="text" placeholder="Ingresa tu numero telefonico" required>
+                    </div>
+
+                    <div class="cuadro_entrada">
+                        <span class="detalles">Password</span>
+                        <input type="text" placeholder="Ingresa tu password" required>
+                    </div>
+
+                    <div class="cuadro_entrada">
+                        <span class="detalles">Confirmar Password</span>
+                        <input type="text" placeholder="Confirma tu password" required>
+                    </div>
+                </div>
+                <div class="detalle_genero">
+                    <input type="radio" name="Genero" id="selector_1">
+                    <input type="radio" name="Genero" id="selector_2">
+                    <input type="radio" name="Genero" id="selector_3">
+                    <span class="titulo_genero">GENERO</span>
+                    <div class="categoria">
+                        <label for="selector_1">
+                            <span class="selector uno"></span>
+                            <span class="genero">Masculino</span>
+                        </label>
+
+                        <label for="selector_2">
+                            <span class="selector dos"></span>
+                            <span class="genero">Femenino</span>
+                        </label>
+
+                        <label for="selector_3">
+                            <span class="selector tres"></span>
+                            <span class="genero">Prefiero no decir</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Registro">
+                </div>
+            </form>
+    </div>
+    <!--FIN CONTENIDO-->
+
+    <!--PIE DE PAGINA-->
+    <footer class="pie_pagina">
+        <div class="contenedor_1">
+            <div class="box">
+                <figure>
+                    <a href="#" class="fa-solid fa-code"> Joel Orellana</a>
+                    <p>Desarrollador Web</p>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>ACERCA DE..</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+                
+            <div class="box">
+                <h2>SEGUINOS</h2>
+                <div class="red_social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor_2">
+            <small>&copy; 2023 <b>Joel Orellana</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <!--FIN PIE DE PAGINA-->
+</body>
+</html>
